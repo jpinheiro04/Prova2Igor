@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:gravity="center_horizontal"
+    tools:context=".charmander">
+
+    <ImageView
+        android:id="@+id/imgcharmander"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/refresh"
+        android:background="@drawable/fundo_atracao"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Carregar imagem"
+        android:id="@+id/carregacharmander"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:text="Charmander é um Pokémon do tipo Fogo, conhecido por sua cauda em chamas que indica sua saúde e humor. É um Pokémon inicial clássico da primeira geração, famoso por ser leal, corajoso e cheio de energia, apesar de seu tamanho pequeno. Sua chama na cauda nunca se apaga, e quando está feliz ou animado, a chama brilha mais forte."
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Lista especiais"
+        android:id="@+id/buttoncard"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista pokédex"
+        android:id="@+id/buttonlist"
+        />
+
+</LinearLayout>

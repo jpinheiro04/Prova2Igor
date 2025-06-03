@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Tela2">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Aqui temos as tipagem de cada pokémon"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/btnIcone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baixo"
+        android:background="@color/white"
+        android:contentDescription="Ícone"/>
+
+    <Button
+        android:id="@+id/btnfogo"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:text="Fogo"
+        android:backgroundTint="#FF0000"
+        app:cornerRadius="30px" />
+
+    <Button
+        android:id="@+id/btnagua"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Agua"
+        android:backgroundTint="#3F51B5"
+        app:cornerRadius="30px" />
+
+    <Button
+        android:id="@+id/btnplanta"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Planta"
+        app:cornerRadius="30px" />
+
+
+
+</LinearLayout>
