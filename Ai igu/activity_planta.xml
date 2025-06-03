@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPlanta"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".planta">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="Pokemóns tipo planta 🌱"
+        />
+
+    <Button
+        android:id="@+id/btnbulbasaur"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:text="Bulbasaur"
+        app:cornerRadius="30px" />
+
+    <Button
+        android:id="@+id/btnchikorita"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Chikorita"
+        app:cornerRadius="30px" />
+
+    <Button
+        android:id="@+id/btntreecko"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Treecko"
+        app:cornerRadius="30px" />
+
+</LinearLayout>
